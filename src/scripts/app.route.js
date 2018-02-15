@@ -50,7 +50,8 @@
                     return $ocLazyLoad.load({
                       name:'adminApp',
                       files:[
-                      'views/dashboard/home/home.js'
+                      'views/dashboard/home/home.js',
+                      'views/dashboard/home/home.css'
                       ]
                     })
                   }]

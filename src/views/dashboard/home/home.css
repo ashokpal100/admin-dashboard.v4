@@ -1,0 +1,111 @@
+.page-dashboard .panel-box {
+    position: relative;
+    border-radius: 2px;
+}
+.panel-box {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+}
+
+.panel {
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.page-dashboard .panel-box .panel-top, .page-dashboard .panel-box .panel-bottom {
+    height: 100px;
+    padding: 30px 15px;
+    font-size: 40px;
+    line-height: 1;
+}
+.panel-box .panel-top {
+    padding: 30px 20px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.panel-box .panel-top, .panel-box .panel-bottom {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.page-dashboard .panel-box .panel-info {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -12px;
+    text-align: center;
+}
+.panel-info {
+    border-color: #c5f1fa;
+}
+.page-dashboard .panel-box .bg-light {
+    background-color: #f9f9f9;
+}
+.page-dashboard .panel-box .panel-bottom {
+    border-top: 1px solid #dfdfdf;
+}
+.page-dashboard .panel-box .panel-top, .page-dashboard .panel-box .panel-bottom {
+    height: 100px;
+    padding: 30px 15px;
+    font-size: 40px;
+    line-height: 1;
+}
+.panel-box .panel-bottom {
+    padding: 10px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.panel-box .panel-top, .panel-box .panel-bottom {
+    display: block;
+}
+.bg-light {
+    background-color: #fff;
+    color: #3D4051;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.panel-box {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+}
+.page-dashboard .panel-box .panel-info span {
+    height: 24px;
+    display: inline-block;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    line-height: 14px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 11px;
+    color: #777;
+    border-radius: 1em;
+}
+box .panel-bottom {
+    height: 100px;
+    padding: 30px 15px;
+    font-size: 40px;
+    line-height: 1;
+}
